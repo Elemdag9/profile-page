@@ -1,103 +1,51 @@
-# 💻 Tirkish Meretdurdyyev's Mini Project
+## 🌟 Profile Card Mini-Project
 
-## Table of Contents
+This is a mini-project to create a clean, modern, and responsive **Profile Card** component using **HTML** and **CSS**.
 
-1.  [About the Project](#1-about-the-project)
-2.  [Features](#2-features)
-3.  [Getting Started](#3-getting-started)
-4.  [Technology Stack](#4-technology-stack)
-5.  [Current Status & Roadmap](#5-current-status--roadmap)
-6.  [Author](#6-author)
-7.  [Support & Subscription](#7-support--subscription)
+-----
 
----
+### 🚀 Features
 
-## 1. About the Project
+The current implementation includes the following components and styling:
 
-This is a **mini-project** focused on building a clean, semantic, and modern "Profile Card" component. It serves as a foundational exercise in developing strong **starter frontend development skills**, particularly focusing on HTML structure and robust CSS class naming conventions (using a modified BEM-like approach).
+  * **User Information:** Displays the name and a profile photo placeholder with initials.
+  * **Statistics Section:** A list showing key statistics (e.g., Projects, Experience, Followers).
+  * **Description Area:** A space for a brief user bio or description.
+  * **Social Media Links:** Links to external platforms (YouTube, GitHub, LinkedIn) with distinct branding and hover effects.
+  * **Styling:** Utilizes CSS Custom Properties (`:root` variables) for easy color theme management and a clean, centered layout.
+  * **Layout:** Uses CSS Grid for the main profile card layout.
 
-The goal is to create a reusable, self-contained component that can be easily integrated into a larger portfolio or personal website.
+-----
 
-## 2. Features
+### ✨ Future Enhancements (To-Do List)
 
-The current HTML structure provides the following core elements:
+The following features are planned for future development:
 
-* **Semantic Structure:** Uses `<main>`, `<article>`, `<figure>`, and `<section>` tags for clear document outline.
-* **Profile Area:** Dedicated space for a profile photo (`profile-card__placeholder`).
-* **Personal Information:** Displays the developer's name (`Tirkish Meretdurdyyev`) and a brief description.
-* **Statistics:** A dedicated list (`profile-card__stats`) to show key metrics (Projects, Experience, Followers).
-* **Social Links:** A navigation section (`profile-card__social-media`) with links to external profiles (YouTube, Github, Linkedin).
+  * **Dark/Light Mode Switch:** Implement a toggle button to switch between light and dark color themes for better accessibility and user preference.
+  * **Fully Responsive Design:** Enhance the current design to ensure it looks great and functions perfectly across all screen sizes (mobile, tablet, and desktop).
+  * **Actual Profile Image:** Replace the `div` placeholder with an `img` element to allow for an actual profile picture.
+  * **Iconography:** Integrate platform-specific icons (e.g., Font Awesome) next to the social media text links.
 
-## 3. Getting Started
+-----
 
-Since this is a simple static HTML file, getting started is straightforward.
+### 💻 Technologies Used
 
-### Prerequisites
+  * **HTML5**
+  * **CSS3**
 
-You only need a modern web browser (Chrome, Firefox, Edge, Safari, etc.).
+-----
 
-### Installation
+### 💡 How to Run Locally
 
-1.  **Clone the repository:**
+1.  **Clone the Repository (if applicable):**
     ```bash
-    git clone [YOUR-REPOSITORY-URL-HERE]
+    git clone https://github.com/Elemdag9/profile-page
     ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd profile-card-mini-project
-    ```
-3.  **Open the file:**
-    Simply double-click on the `index.html` file, or open it in your browser:
-    ```bash
-    # (On most systems)
-    open index.html
-    ```
-    The browser will render the basic HTML structure, ready for CSS styling.
+2.  **Open the Files:** Navigate to the project directory.
+3.  **Launch `index.html`:** Open the `index.html` file in your preferred web browser.
 
-## 4. Technology Stack
+-----
 
-This project currently utilizes only the core web language:
+### 🤝 Connect with the Developer
 
-| Technology | Purpose |
-| :--- | :--- |
-| **HTML5** | Provides the semantic structure and content of the profile card. |
-| **CSS3** (Planned) | Will be used to apply styling, layout (Flexbox/Grid), and responsiveness. |
-| **JavaScript** (Planned) | Will be used for any future interactive features or dynamic data loading. |
-
-## 5. Current Status & Roadmap
-
-### Current Status
-
-The project is currently at the **structural HTML stage**. All content is present, and classes are named, but no styling has been applied yet.
-
-### Roadmap
-
-Future plans for development include:
-
-* ✅ **Phase 1: Complete CSS Styling**
-    * Implement Flexbox/Grid for layout.
-    * Define typography, colors, and shadows.
-    * Ensure the component is fully **responsive**.
-* ⏳ **Phase 2: Add Interactivity**
-    * Implement a dark/light mode toggle.
-    * Add hover effects to social links and stats.
-* 🚀 **Phase 3: Refactoring and Clean-up**
-    * Optimize HTML/CSS for production.
-
-## 6. Author
-
-**Tirkish Meretdurdyyev** - Starter Frontend Developer
-
-Thank you for checking out my early work!
-
-## 7. Support & Subscription
-
-If you find this project interesting and want to follow my development journey, please consider subscribing to my channels or following me on social media.
-
-* [YouTube](https://youtube.com)
-* [Github](https://github.com)
-* [Linkedin](https://linkedin.com)
-
----
-
-**⭐ Support my journey by giving this repository a star!**
+  * **Tirkish Meretdurdyyev**
