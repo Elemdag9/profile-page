@@ -40,7 +40,7 @@ You only need a modern web browser (Chrome, Firefox, Edge, Safari, etc.).
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR-REPOSITORY-URL-HERE]
+    git clone https://github.com/Elemdag9/profile-page
     ```
 2.  **Navigate to the project directory:**
     ```bash
