@@ -3,13 +3,28 @@
   --text-color: #333;
   --background-primary: #f4f4f9;
   --pure-white: #fff;
-
+  --border-color-light: #ddd;
   --pp-placeholder: #1976d2;
+  --theme-toggle-color: #2f2f2f;
 
   --youtube: #ff0000;
   --youtube-accessible: #b90000;
-  --github: #181717;
+  --github-border-text: #181717;
+  --github-bg: #fff;
   --linkedin: #0a66c2;
+}
+
+.dark-theme {
+  --heading-color: #f4f4f9;
+  --text-color: #c0c0c0;
+  --background-primary: #121212;
+  --pure-white: #1e1e1e;
+  --border-color-light: #333333;
+  --pp-placeholder: #64b5f6;
+  --theme-toggle-color: #fff;
+
+  --github-border-text: #fff;
+  --github-bg: #181717;
 }
 
 /* ========================================================================= */
@@ -34,6 +49,37 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  position: fixed;
+  right: 1.5rem;
+  top: 1.5rem;
+
+  background-color: transparent;
+  color: var(--theme-toggle-color);
+  border: 2px solid var(--theme-toggle-color);
+  border-radius: 1.5rem;
+  padding: .5rem 1rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: all .3s ease-in-out;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+  border-radius: .5rem;
+}
+
+.theme-toggle svg {
+  fill: var(--theme-toggle-color);
 }
 
 /* ========================================================================= */
@@ -117,7 +163,7 @@ main {
 }
 
 .profile-card__stat-item:not(:last-child) {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid var(--border-color-light);
 }
 
 .profile-card__stat-number {
@@ -139,8 +185,8 @@ main {
 
 .profile-card__description {
   grid-area: desc;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid var(--border-color-light);
+  border-bottom: 1px solid var(--border-color-light);
   padding: 12px 1rem;
 }
 
@@ -193,14 +239,14 @@ main {
 }
 
 .profile-card__link--github {
-  border-color: var(--github);
-  color: var(--github);
+  border-color: var(--github-border-text);
+  color: var(--github-border-text);
 }
 
 .profile-card__link--github:hover {
-  background-color: var(--github);
-  border-color: var(--github);
-  color: var(--pure-white);
+  background-color: var(--github-border-text);
+  border-color: var(--github-border-text);
+  color: var(--github-bg);
 }
 
 .profile-card__link--linkedin {
